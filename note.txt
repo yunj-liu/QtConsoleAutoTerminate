@@ -1,0 +1,2 @@
+01QtConsoleAutoTerminate
+template choose Qt Console Application. Build system choose CMake, Kit choose MSVC2019, VCS choose Git
