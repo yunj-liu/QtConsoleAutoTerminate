@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     //Add this, otherwise the Qt console program will not end automatically
     QTimer t;
     t.connect(&t, SIGNAL(timeout()), &a, SLOT(quit()));
-    t.start(20);
+    t.start(20);  // 20millisecond
 
     return a.exec();
 }
